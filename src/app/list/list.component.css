@@ -1,0 +1,29 @@
+.cell {
+  padding: 7px;
+  margin: 10px
+
+
+}
+.col {
+  display: inline-block;
+  float: left;
+}
+.col-md-3{
+  width: 33%;
+}
+.list-item {
+  display: block;
+
+}
+
+.table-item {
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+
+.btn-wrapper{
+  margin: 30px 50px;
+    float: left;
+      width: 20%;
+}

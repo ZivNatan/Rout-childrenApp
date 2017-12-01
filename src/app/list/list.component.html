@@ -1,0 +1,20 @@
+
+<div class="countiner">
+  <div class="row">
+     <div class="col col-md-3">
+           <div>
+             <button class="btn btn-primary" [routerLink]="['add']">Add</button>
+           </div>
+          <div  *ngFor="let item of list"  [ngClass]="{'list-item': listView, 'table-item': !listView}" class="cell">
+           <a href="#" (click)='openEdit(item)' [routerLink]="['edit', item.id]">{{item.name}}</a>
+          </div>
+     </div>
+     <div class="col col-md-9">
+        <router-outlet></router-outlet>
+     </div>
+  </div>
+  <div class="row btn-wrapper">
+      <button class="btn btn-primary" (click)="changeView()">change view</button>
+  </div>
+
+</div>

@@ -1,0 +1,13 @@
+{
+  "resolve": [
+      {"id":"1", "name": "img1", "title":"IMG1"},
+      {"id":"2", "name": "img2", "title":"IMG2"},
+      {"id":"3", "name": "img3", "title":"IMG3"},
+      {"id":"4", "name": "img4", "title":"IMG4"},
+      {"id":"5", "name": "img5", "title":"IMG5"},
+      {"id":"6", "name": "img6", "title":"IMG6"},
+      {"id":"7", "name": "img7", "title":"IMG7"},
+      {"id":"8", "name": "img8", "title":"IMG8"}
+
+  ]
+}
